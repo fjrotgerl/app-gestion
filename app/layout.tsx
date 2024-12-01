@@ -18,12 +18,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${onestFont.className} antialiased`}
+        className={`${onestFont.className} antialiased bg-neutral-100`}
       >
         <nav>
           <NavMobile></NavMobile>
         </nav>
-        <main className="bg-neutral-100 h-screen p-2.5">
+        <main className="p-2.5 h-full">
           {children}
         </main>
       </body>
